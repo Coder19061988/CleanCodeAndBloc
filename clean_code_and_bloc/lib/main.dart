@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void mail() {
+void main() {
   runApp(const MyApp());
 }
 
