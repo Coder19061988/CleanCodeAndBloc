@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/skus_screens.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,15 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: const MainScreen());
-  }
-}
-
-class MainScreen extends StatelessWidget {
-const MainScreen({ Key? key }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(body: Center(child: Text('qweqe')));
+    return const MaterialApp(home: SkusScreen());
   }
 }
